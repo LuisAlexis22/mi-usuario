@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Boat for Treasure - Guía Completa</title>
+    <style>
+        :root {
+            --roblox-blue: #00A2FF;
+            --roblox-dark-blue: #005A8C;
+            --roblox-yellow: #FFD700;
+            --roblox-bg: #e3e3e3;
+            --card-bg: #ffffff;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--roblox-bg);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--roblox-blue);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .author {
+            font-size: 0.9rem;
+            background: rgba(0,0,0,0.2);
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .media-container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        img, video {
+            max-width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        /* Secciones Táctiles */
+        .section-box {
+            background: var(--card-bg);
+            margin-bottom: 15px;
+            border-radius: 12px;
+            overflow: hidden;
+            border-left: 8px solid var(--roblox-blue);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            background: #f9f9f9;
+            padding: 18px;
+            margin: 0;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.2rem;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .section-title:active {
+            background-color: #eee;
+        }
+
+        .content {
+            padding: 15px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 10px;
+        }
+
+        .item-tag {
+            background: #f0f0f0;
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 0.9rem;
+            border: 1px solid #ddd;
+        }
+
+        .mission-card {
+            background: #fff9e6;
+            border: 1px solid var(--roblox-yellow);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            grid-column: 1 / -1;
+        }
+
+        h3 { color: var(--roblox-dark-blue); margin-top: 0; }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CONSTRUYE UN BARCO PARA EL TESORO</h1>
+    <div class="author">Por: Luis Alexis Barajas Marroquín - 2°B Secundaria</div>
+</header>
+
+<main>
+    <section class="media-container">
+        <img src="noFilter.jpg" alt="Build a Boat Image">
+        <video controls style="margin-top: 15px;">
+            <source src="206633_small.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+        <p><strong>Música de ambiente:</strong></p>
+        <audio controls>
+            <source src="backgroundmusicforvideos-roblox-minecraft-fortnite-video-game-music-358426.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <div class="section-box">
+        <h2 class="section-title">📦 Bloques <span>▼</span></h2>
+        <div class="content">
+            <div class="item-tag">Madera</div><div class="item-tag">Madera lisa</div>
+            <div class="item-tag">Cristal</div><div class="item-tag">Piedra</div>
+            <div class="item-tag">Tela</div><div class="item-tag">Plástico</div>
+            <div class="item-tag">Césped</div><div class="item-tag">Arena</div>
+            <div class="item-tag">Metal oxidado</div><div class="item-tag">Rebosante</div>
+            <div class="item-tag">Metal</div><div class="item-tag">Concreto</div>
+            <div class="item-tag">Hielo</div><div class="item-tag">Carbón</div>
+            <div class="item-tag">Ladrillos</div><div class="item-tag">Mármol</div>
+            <div class="item-tag">Titanio</div><div class="item-tag">Obsidiana</div>
+            <div class="item-tag" style="background: #e1f5fe;">Neón (Robux)</div>
+        </div>
+    </div>
+
+    <div class="section-box">
+        <h2 class="section-title">⚔️ Armas <span>▼</span></h2>
+        <div class="content">
+            <div class="item-tag">Dinamita</div><div class="item-tag">Pinchos</div>
+            <div class="item-tag">Cañón</div><div class="item-tag">Torreta</div>
+            <div class="item-tag">Arpón Navidad</div><div class="item-tag">Arpón Halloween</div>
+            <div class="item-tag">Cañón grande</div><div class="item-tag">Pistola</div>
+            <div class="item-tag">Espada</div><div class="item-tag">Cañón de mano</div>
+            <div class="item-tag">Bastón Mágico</div><div class="item-tag">Arco y Escudo</div>
+        </div>
+    </div>
+
+    <div class="section-box">
+        <h2 class="section-title">⚙️ Mecánico <span>▼</span></h2>
+        <div class="content">
+            <div class="item-tag">Rueda</div><div class="item-tag">Motor Barco</div>
+            <div class="item-tag">Turbinas</div><div class="item-tag">Propulsores</div>
+            <div class="item-tag">Jetpack</div><div class="item-tag">Pistón</div>
+            <div class="item-tag">Servomotor</div><div class="item-tag">Bisagra</div>
+            <div class="item-tag">Resorte</div><div class="item-tag">Imán</div>
+            <div class="item-tag">Cámara</div><div class="item-tag">Botón/Palanca</div>
+        </div>
+    </div>
+
+    <div class="section-box">
+        <h2 class="section-title">🛠️ Herramientas y Cofres <span>▼</span></h2>
+        <div class="content">
+            <div class="item-tag">Pincel</div><div class="item-tag">Llave inglesa</div>
+            <div class="item-tag">Destornillador</div><div class="item-tag">Escala</div>
+            <div class="item-tag">Cofre Legendario</div><div class="item-tag">Cofre Épico</div>
+        </div>
+    </div>
+
+    <div class="section-box">
+        <h2 class="section-title">🚩 Misiones <span>▼</span></h2>
+        <div class="content" style="display: block;">
+            <div class="mission-card"><strong>☁️ Nube:</strong> Una nube sobre tu parcela.</div>
+            <div class="mission-card"><strong>🎯 Blanco:</strong> Toca el objetivo volador.</div>
+            <div class="mission-card"><strong>⚽ Fútbol:</strong> Marca un gol con el balón grande.</div>
+            <div class="mission-card"><strong>🐉 Dragón:</strong> Vence al dragón en batalla.</div>
+            <div class="mission-card"><strong>🧈 Encuéntrame:</strong> Haz clic al bloque de mantequilla 5 veces.</div>
+            <div class="mission-card"><strong>❄️ Hielo Fino:</strong> Los bloques son más frágiles por el frío.</div>
+        </div>
+    </div>
+
+    <div class="section-box" style="border-left-color: #555;">
+        <h2 class="section-title">⚙️ Configuración <span>▼</span></h2>
+        <div class="content" style="display: block;">
+            <p>Edita: Música, Luz día/noche, Modo Compartir, Aislamiento, Bloqueo de peticiones, Modo Ofensiva y Canje de códigos.</p>
+            <p><em>* Carga instantánea solo para VIP.</em></p>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Roblox Fan Page - Build a Boat Guide</p>
+</footer>
+
+<script>
+    // Script simple para colapsar secciones en móviles
+    document.querySelectorAll('.section-title').forEach(title => {
+        title.addEventListener('click', () => {
+            const content = title.nextElementSibling;
+            content.style.display = content.style.display === 'none' ? 'grid' : 'none';
+        });
+    });
+</script>
+
+</body>
+</html>
